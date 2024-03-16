@@ -7,7 +7,7 @@ plugins {
     signing
 }
 
-group = "app.revanced"
+group = "Lightdm"
 
 repositories {
     mavenCentral()
@@ -35,14 +35,14 @@ kotlin {
 tasks {
     withType(Jar::class) {
         manifest {
-            attributes["Name"] = "ReVanced Patches template"
-            attributes["Description"] = "Patches template for ReVanced."
+            attributes["Name"] = "ReVanced Patches from Lightdm"
+            attributes["Description"] = "Patches for ReVanced by Lightdm."
             attributes["Version"] = version
             attributes["Timestamp"] = System.currentTimeMillis().toString()
-            attributes["Source"] = "git@github.com:revanced/revanced-patches-template.git"
-            attributes["Author"] = "ReVanced"
-            attributes["Contact"] = "contact@revanced.app"
-            attributes["Origin"] = "https://revanced.app"
+            attributes["Source"] = "git@github.com:lightdm/custom-revanced-patches.git"
+            attributes["Author"] = "Lightdm"
+            attributes["Contact"] = "philipp.vc@gmx.de"
+            attributes["Origin"] = "..."
             attributes["License"] = "GNU General Public License v3.0"
         }
     }
@@ -96,9 +96,9 @@ publishing {
             from(components["java"])
 
             pom {
-                name = "ReVanced Patches template"
-                description = "Patches template for ReVanced."
-                url = "https://revanced.app"
+                name = "ReVanced Patches by Lightdm"
+                description = "Patches for ReVanced by Lightdm."
+                url = "..."
 
                 licenses {
                     license {
@@ -108,15 +108,15 @@ publishing {
                 }
                 developers {
                     developer {
-                        id = "ReVanced"
-                        name = "ReVanced"
-                        email = "contact@revanced.app"
+                        id = "..."
+                        name = "Lightdm"
+                        email = "philipp.vc@gmx.de"
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/revanced/revanced-patches-template.git"
-                    developerConnection = "scm:git:git@github.com:revanced/revanced-patches-template.git"
-                    url = "https://github.com/revanced/revanced-patches-template"
+                    connection = "scm:git:git://github.com/lightdm/custom-revanced-patches.git"
+                    developerConnection = "scm:git:git@github.com:lightdm/custom-revanced-patches.git"
+                    url = "https://github.com/lightdm/custom-revanced-patches"
                 }
             }
         }
