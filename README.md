@@ -1,3 +1,9 @@
+# Lightdm ReVanced Patches
+This is just the public [ReVanced Patches](https://github.com/revanced/revanced-patches) repository with my own patches added
+
+
+
+
 # 👋🧩 ReVanced Patches template
 
 This is a template for creating a new ReVanced Patches repository.  
