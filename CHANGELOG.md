@@ -1,3 +1,10 @@
+# 1.0.0 (2024-03-20)
+
+
+### Features
+
+* **Version:** Bump version number ([55abc77](https://github.com/Lightdm/custom-revanced-patches/commit/55abc774227a6580c5401d3cef0f68f4944cfd51))
+
 ## [1.0.1](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.0...v1.0.1) (2024-02-21)
 
 
