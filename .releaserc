@@ -33,7 +33,7 @@
       {
         "assets": [
           {
-            "path": "build/libs/revanced-patches*"
+            "path": "build/libs/custom-revanced-patches*"
           }
         ],
         successComment: false
