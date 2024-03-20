@@ -1,3 +1,10 @@
+# 1.0.0-dev.1 (2024-03-20)
+
+
+### Bug Fixes
+
+* **test:** Merge pull request [#2](https://github.com/Lightdm/custom-revanced-patches/issues/2) from Lightdm/Lightdm-patch-1 ([eae8eb1](https://github.com/Lightdm/custom-revanced-patches/commit/eae8eb153f9ca4f145c1093bfee6b2918376565b))
+
 ## [1.0.1](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.0...v1.0.1) (2024-02-21)
 
 
